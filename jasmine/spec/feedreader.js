@@ -107,7 +107,7 @@ $(function() {
 
         beforeEach(function (done){
             loadFeed(0,function (){
-                firstFeedContent = $('.entry').text();;
+                firstFeedContent = $('.entry').text();
                 done();
             });
         });
